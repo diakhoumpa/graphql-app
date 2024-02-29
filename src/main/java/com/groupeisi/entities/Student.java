@@ -1,4 +1,4 @@
-package sn.thiare.graphqlspringstarter.entities;
+package com.groupeisi.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

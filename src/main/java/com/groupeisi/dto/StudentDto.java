@@ -1,4 +1,4 @@
-package sn.thiare.graphqlspringstarter.dto;
+package com.groupeisi.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

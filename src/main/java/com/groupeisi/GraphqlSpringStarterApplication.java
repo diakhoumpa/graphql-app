@@ -1,11 +1,11 @@
-package sn.thiare.graphqlspringstarter;
+package com.groupeisi;
 
+import com.groupeisi.entities.Student;
+import com.groupeisi.repository.StudentRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import sn.thiare.graphqlspringstarter.entities.Student;
-import sn.thiare.graphqlspringstarter.repository.StudentRepository;
 
 import java.util.List;
 

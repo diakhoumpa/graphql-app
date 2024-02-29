@@ -1,9 +1,10 @@
-package sn.thiare.graphqlspringstarter.repository;
+package com.groupeisi.repository;
 
+import com.groupeisi.entities.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
-import sn.thiare.graphqlspringstarter.entities.Student;
+
 import java.util.List;
 
 @Repository

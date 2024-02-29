@@ -1,8 +1,8 @@
-package sn.thiare.graphqlspringstarter.mapper;
+package com.groupeisi.mapper;
 
+import com.groupeisi.dto.StudentDto;
+import com.groupeisi.entities.Student;
 import org.mapstruct.Mapper;
-import sn.thiare.graphqlspringstarter.dto.StudentDto;
-import sn.thiare.graphqlspringstarter.entities.Student;
 
 @Mapper(componentModel = "spring")
 public interface StudentMapper {
