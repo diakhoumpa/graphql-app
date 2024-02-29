@@ -1,6 +1,7 @@
 type Query {
     getStudents: [StudentDto]
     getStudent(id: Int): StudentDto
+    getStudentByName(name: String): [StudentDto]
 }
 
 type Mutation {

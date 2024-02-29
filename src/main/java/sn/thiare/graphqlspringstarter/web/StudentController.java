@@ -36,4 +36,9 @@ public class StudentController {
     public Student createStudent(@Argument StudentDto studentDto) {
         return studentRepository.save(studentMapper.toEntity(studentDto));
     }
+
+    @QueryMapping
+    public List<StudentDto> getStudentByName(@Argument String name) {
+        return studentRepository.findByName(name).stream().map(studentMapper::toDto).toList();
+    }
 }
