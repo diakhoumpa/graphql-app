@@ -49,6 +49,12 @@ query {
   }
 }
 
+query {
+    getStudentByName(name: "ou") {
+        id,name
+    }
+}
+
 mutation {
   createStudent(studentDto: {
     name: "John Doe"
