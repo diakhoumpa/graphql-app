@@ -16,13 +16,6 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
 - Maven
 - Un IDE Java (comme IntelliJ IDEA ou Eclipse)
 
-## Configuration
-
-1. **Clonage du projet :** Clonez ce projet sur votre machine locale.
-
-2. **Importation dans votre IDE :** Importez le projet dans votre IDE en tant que projet Maven existant.
-
-3. **Exécution de l'application :** Lancez l'application Spring Boot en exécutant la classe principale `GraphqlSpringStarterApplication.java`.
 
 ## Utilisation
 
@@ -57,9 +50,9 @@ query {
 
 mutation {
   createStudent(studentDto: {
-    name: "John Doe"
-    email: "john@example.com"
-    phone: "123-456-7890"
+    name: "Marieme Diakhoumpa"
+    email: "diakhoumpa@gmail.com"
+    phone: "777767890"
   }) {
     id
     name
@@ -68,8 +61,3 @@ mutation {
   }
 }
 ```
-## Contribuer
-Les contributions sont les bienvenues ! Si vous souhaitez apporter des améliorations à ce projet, n'hésitez pas à créer une demande de tirage (pull request).
-
-## Auteurs
-Ce projet a été créé par **_`THIARE`_**.
